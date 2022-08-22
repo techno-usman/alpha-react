@@ -48,7 +48,7 @@ const Header = () => {
                 <img src={LogoImg} alt='logo' className={Classes.logoImg} />
               </Link>
             </div>
-            <ul className='list-unstyled d-flex flex-wrap align-items-center gap-2 mb-0'>
+            <ul className='list-unstyled d-flex flex-wrap align-items-center gap-2 gap-lg-4 mb-0'>
               {navLinks.map((item, index) => (
                 <li key={index}>
                   <Link
