@@ -1,0 +1,16 @@
+.footer{
+    background: #14074B;
+    backdrop-filter: blur(101px);
+    .logoImg{
+        width: 142px;
+        height: 135px;
+        object-fit: contain;
+    }
+    .navLinks{
+        // font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

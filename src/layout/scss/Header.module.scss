@@ -1,0 +1,54 @@
+.header{
+    background: linear-gradient(180deg, rgba(15, 3, 54, 0.99) 60.02%, rgba(15, 3, 54, 0) 100%);
+    padding: 20px 0;
+    .navbar{
+        .logoImg{
+            height: 102px;
+            width: 107px;
+            object-fit: contain;
+        }
+        .searchWrapper{
+            border: 1px solid #ffffff;
+            border-radius: 100px;
+            .searchInput{
+                max-width: 100%;
+                border: 0;
+                color: #ffffff;
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: #ffffff;
+                }
+            }
+        }
+        .navLinks{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .signupBtn{
+            background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+            box-shadow: 0px 5px 14px rgba(242, 72, 115, 0.38);
+            border-radius: 100px;
+            font-size: 18px;
+            font-weight: 500;
+            &:hover{
+                background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+            }
+        }
+        .selectWrapper{
+            border: 1px solid #ffffff;
+            border-radius: 100px;
+            .navSelect{
+                background: transparent;
+                color: #ffffff;
+                border: 0;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+}
