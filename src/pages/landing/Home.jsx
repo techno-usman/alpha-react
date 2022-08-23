@@ -5,6 +5,7 @@ import WelcomeAlpha from '../../components/landing/welcomeAlpha/WelcomeAlpha'
 import Achievement from '../../components/landing/achievement/Achievement'
 import NewGames from '../../components/landing/newGames/NewGames'
 import RecentInformation from '../../components/landing/recentInformation/RecentInformation'
+import NftToken from '../../components/landing/nftToken/NftToken'
 
 
 import Partners from '../../components/landing/partners/Partners'
@@ -20,6 +21,7 @@ const Home = () => {
     <Achievement />
     <NewGames />
     <RecentInformation />
+    <NftToken />
     <Partners />
     <Subscribe />
     <Footer />

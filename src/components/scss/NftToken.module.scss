@@ -1,0 +1,40 @@
+.nftTokenWrapper {
+    background-color: #0F0336;
+
+    .blockTitle {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 68px;
+        color: #FFFFFF;
+    }
+
+    .description {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #AEAEAE;
+    }
+
+    .bgCirclePink {
+        background: rgba(255, 0, 200, 0.67);
+        filter: blur(80px);
+        width: 262px;
+        height: 262px;
+        bottom: -50px;
+        border-radius: 50%;
+    }
+    .bgCircleBlue {
+        background: #250B94;
+        filter: blur(80px);
+        width: 262px;
+        height: 262px;
+        right: 0;
+        top: -50px;
+        border-radius: 50%;
+    }
+}

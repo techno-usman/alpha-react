@@ -18,7 +18,7 @@ const Subscribe = () => {
           </Col>
           <Col lg={6}>
             <div className={`${Classes.inputWrapper} d-flex flex-wrap`}>
-              <input placeholder='Enter your email' type='email' className={`btn text-white bg-white ${Classes.inputItem}`}  />
+              <input placeholder='Enter your email' type='email' className={`btn text-black text-start bg-white ${Classes.inputItem}`}  />
               <button className={`btn text-white ${Classes.actionBtn}`}>Suscribe</button>
             </div>
           </Col>

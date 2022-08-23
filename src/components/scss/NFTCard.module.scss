@@ -1,0 +1,42 @@
+.nftcardWrapper{
+    background: #14074B;
+    backdrop-filter: blur(101px);
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    .cardTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: uppercase;
+    }
+    .tagsWrapper{
+        .tagItem{
+            height: 28.78px;
+            background: rgba(245, 245, 245, 0.07);
+            border-radius: 109.706px;
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            color: #BCBCBC;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    .actionBtn{
+        background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+        box-shadow: 0px 5px 14px rgba(242, 72, 115, 0.38);
+        border-radius: 4px;
+        height: 54px;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        border: 0;
+    }
+}
