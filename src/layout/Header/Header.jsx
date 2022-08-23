@@ -39,7 +39,7 @@ const navLinks = [
 
 const Header = () => {
   return (
-    <header className={`${Classes.header} top-0 w-100`}>
+    <header className={`${Classes.header} position-fixed top-0 w-100 `}>
       <nav className={Classes.navbar}>
         <Container>
           <div className='d-flex align-items-center justify-content-between  flex-wrap gap-2'>
