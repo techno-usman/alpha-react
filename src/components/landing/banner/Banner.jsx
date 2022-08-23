@@ -1,8 +1,8 @@
 import React from 'react';
-import Classes from '../scss/Banner.module.scss';
-import BannerOneImg from '../../assets/images/banner.webp';
+import Classes from '../../scss/Banner.module.scss';
+import BannerOneImg from '../../../assets/images/banner.webp';
 import { Row, Container, Col, Button } from 'react-bootstrap';
-import { ReactComponent as PlayIcon } from '../../assets/svg/play.svg';
+import { ReactComponent as PlayIcon } from '../../../assets/svg/play.svg';
 import Slider from 'react-slick';
 
 const Banner = () => {

@@ -1,11 +1,11 @@
 import React from 'react'
-import Classes from '../scss/Partners.module.scss'
+import Classes from '../../scss/Partners.module.scss'
 import { Row, Container, Col } from 'react-bootstrap';
-import BoomerangImg from '../../assets/images/boomerang.png'
-import BlimpImg from '../../assets/images/blimp.png'
-import OpendoorImg from '../../assets/images/opendoor.png'
-import Qrcoimg from '../../assets/images/qrco.png'
-import Droplet from '../../assets/images/droplet.png'
+import BoomerangImg from '../../../assets/images/boomerang.png'
+import BlimpImg from '../../../assets/images/blimp.png'
+import OpendoorImg from '../../../assets/images/opendoor.png'
+import Qrcoimg from '../../../assets/images/qrco.png'
+import Droplet from '../../../assets/images/droplet.png'
 
 const Partners = () => {
   return (

@@ -1,0 +1,31 @@
+.welcomeAlphaWrapper{
+    background: #0F0336;
+    .title{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 67px;
+    }
+    .description{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #AEAEAE;
+    }
+    .videoSectionBlock{
+        background: linear-gradient(90deg, #0F0C29 0%, #302B63 50%, #24243E 100%);
+        box-shadow: 0px 4px 23px rgba(85, 85, 85, 0.05);
+        border-radius: 12px;
+       
+        .imgWrapper{
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            width: 151px;
+            height: 144px;
+            background-size: contain;
+        }
+    }
+}
