@@ -6,7 +6,9 @@ import Achievement from '../../components/landing/achievement/Achievement'
 import NewGames from '../../components/landing/newGames/NewGames'
 import RecentInformation from '../../components/landing/recentInformation/RecentInformation'
 import NftToken from '../../components/landing/nftToken/NftToken'
-
+import ESports from '../../components/landing/eSports/ESports'
+import Store from '../../components/landing/store/Store'
+import Alpha from '../../components/landing/alpha/Alpha'
 
 import Partners from '../../components/landing/partners/Partners'
 import Subscribe from '../../components/subscribe/Subscribe'
@@ -22,6 +24,9 @@ const Home = () => {
     <NewGames />
     <RecentInformation />
     <NftToken />
+    <ESports />
+    <Store />
+    <Alpha />
     <Partners />
     <Subscribe />
     <Footer />
