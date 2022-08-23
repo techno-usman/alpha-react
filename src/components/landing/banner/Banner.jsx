@@ -9,10 +9,11 @@ const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 200,
+    speed: 3000,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
   };
   return (
     <div className='banner-carousel'>

@@ -1,0 +1,25 @@
+.newgamesWrapper{
+    background-color: #1B0D3D;
+    .pageTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 68px;
+        color: #FFFFFF;
+    }
+    .viewAllBtn{
+        background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+        box-shadow: 0px 5px 14px rgba(242, 72, 115, 0.38);
+        border-radius: 100px;
+        border: 0;
+        width: 131px;
+        height: 61px;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}

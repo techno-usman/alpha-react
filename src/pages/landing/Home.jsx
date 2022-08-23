@@ -2,6 +2,11 @@ import React from 'react'
 import Header from '../../layout/Header/Header'
 import Banner from '../../components/landing/banner/Banner'
 import WelcomeAlpha from '../../components/landing/welcomeAlpha/WelcomeAlpha'
+import Achievement from '../../components/landing/achievement/Achievement'
+import NewGames from '../../components/landing/newGames/NewGames'
+import RecentInformation from '../../components/landing/recentInformation/RecentInformation'
+
+
 import Partners from '../../components/landing/partners/Partners'
 import Subscribe from '../../components/subscribe/Subscribe'
 import Footer from '../../layout/Footer/Footer'
@@ -12,6 +17,9 @@ const Home = () => {
     <Header />
     <Banner />
     <WelcomeAlpha />
+    <Achievement />
+    <NewGames />
+    <RecentInformation />
     <Partners />
     <Subscribe />
     <Footer />

@@ -1,0 +1,45 @@
+.banner-carousel .slick-dots{
+    bottom: 30px !important;
+  }
+  .banner-carousel .slick-dots li button:before{
+    color: #D9D9D9;
+    opacity: 1;
+    height: 16px !important;
+    width: 16px !important;
+    font-size: 20px;
+  }
+  .banner-carousel .slick-dots li.slick-active button:before{
+    color: #EE05FF;
+    height: 16px;
+    width: 16px;
+    font-size: 20px;
+  }
+  .achievementWrapper{
+    .slick-next {
+      right: 20px;
+      top: -60px;
+      &::before{
+        content: '';
+      }
+    }
+    .slick-prev {
+      right: 80px;
+      top: -60px;
+      left: auto;
+      &::before{
+        content: '';
+      }
+    }
+    .slick-arrow{
+        border: 1px solid #E812FD;
+        border-radius: 100px;
+        width: 47px;
+        height: 47px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+        }
+    }
+  }
