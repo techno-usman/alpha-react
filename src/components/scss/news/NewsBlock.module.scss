@@ -1,0 +1,39 @@
+.newsWrapper {
+  .blockTitle {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+  }
+  .filterBtnWrapper {
+    .filterBtn {
+      height: 38px;
+      border-radius: 100px;
+      border: 1px solid #ffffff;
+      background-color: transparent;
+      &:hover {
+        background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+        border: 0;
+      }
+    }
+    .activeBtn {
+      background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+      border: 0;
+    }
+  }
+  .pinkEllipsis {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: -1;
+  }
+  .viewAllBtn {
+    width: 131px;
+    height: 61px;
+    background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+    box-shadow: 0px 5px 14px rgba(242, 72, 115, 0.38);
+    border-radius: 100px;
+    border: 0;
+  }
+}

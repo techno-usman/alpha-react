@@ -1,0 +1,15 @@
+.gameReviewWrapper{
+    .blockTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 68px;
+    }
+    .pinkEllipsis{
+        position: absolute;
+        top: -20px;
+        left: 0;
+        z-index: -1;
+    }
+}

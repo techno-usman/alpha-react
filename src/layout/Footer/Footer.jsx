@@ -1,15 +1,14 @@
-import React from 'react';
-import Classes from '../scss/Footer.module.scss';
-import { Row, Container, Col } from 'react-bootstrap';
-
-import LogoImg from '../../assets/images/logo.png';
-import { Link } from 'react-router-dom';
-import { ReactComponent as FacebookIcon } from '../../assets/svg/facebook.svg';
-import { ReactComponent as Linkedin } from '../../assets/svg/linkedin.svg';
-import { ReactComponent as Twitter } from '../../assets/svg/twitter.svg';
-import { ReactComponent as Instagram } from '../../assets/svg/instagram.svg';
-import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg';
-import { ReactComponent as Discord } from '../../assets/svg/discord.svg';
+import React from 'react'
+import Classes from '../scss/Footer.module.scss'
+import { Row, Container, Col } from 'react-bootstrap'
+import LogoImg from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
+import { ReactComponent as FacebookIcon } from '../../assets/svg/facebook.svg'
+import { ReactComponent as Linkedin } from '../../assets/svg/linkedin.svg'
+import { ReactComponent as Twitter } from '../../assets/svg/twitter.svg'
+import { ReactComponent as Instagram } from '../../assets/svg/instagram.svg'
+import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg'
+import { ReactComponent as Discord } from '../../assets/svg/discord.svg'
 
 const Footer = () => {
   const navLinks = [
@@ -29,7 +28,7 @@ const Footer = () => {
       pageName: 'About',
       to: '/about',
     },
-  ];
+  ]
   const socialLinks = [
     {
       socialIcon: <FacebookIcon />,
@@ -55,7 +54,7 @@ const Footer = () => {
       socialIcon: <Discord />,
       to: '/Discord',
     },
-  ];
+  ]
   return (
     <footer className={`${Classes.footer} py-5`}>
       <Container>
@@ -100,7 +99,7 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-
+import { Link, NavLink } from 'react-router-dom'
 import LogoImg from '../../assets/images/logo.png'
 import Classes from '../scss/Header.module.scss'
 import { ReactComponent as SearchIcon } from '../../assets/svg/search.svg'
@@ -21,7 +20,7 @@ const navLinks = [
   },
   {
     pageName: 'News',
-    to: '/news',
+    to: '/home/news',
   },
   {
     pageName: 'About',
@@ -60,12 +59,16 @@ const Header = () => {
               <ul className='list-unstyled  d-flex flex-wrap align-items-center gap-2 gap-lg-4 mb-0'>
                 {navLinks.map((item, index) => (
                   <li key={index}>
-                    <Link
+                    <NavLink
                       to={item.to}
-                      className={`${Classes.navLinks} text-white text-decoration-none`}
+                      className={({ isActive }) =>
+                        isActive
+                          ? `${Classes.activeLink} ${Classes.navLinks} text-decoration-none`
+                          : `${Classes.navLinks} text-white text-decoration-none`
+                      }
                     >
                       {item.pageName}
-                    </Link>
+                    </NavLink>
                   </li>
                 ))}
               </ul>

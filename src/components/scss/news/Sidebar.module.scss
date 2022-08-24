@@ -1,0 +1,16 @@
+.searchWrapper {
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    width: 270px;
+    .searchInput {
+      max-width: 100%;
+      border: 0;
+      color: #ffffff;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        color: #ffffff;
+      }
+    }
+  }

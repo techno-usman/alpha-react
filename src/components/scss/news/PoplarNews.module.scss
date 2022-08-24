@@ -1,0 +1,19 @@
+.poplarNewsWrapper {
+  .blockTitle {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+  }
+  .pinkEllipsis{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+  }
+  .blueEllipsis{
+    position: absolute;
+    top: -20px;
+    right: 0;
+  }
+}
