@@ -1,0 +1,15 @@
+.itemHeader{
+    background: #2F1B60;
+    .title{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .seprator{
+        height: 5px;
+        background-color: #ffffff;
+        flex: 1;
+    }
+}

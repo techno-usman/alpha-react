@@ -1,9 +1,10 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import Classes from '../scss/news/SubscribeNews.module.scss'
 
 const SubscribeNews = () => {
   return (
-    <div className={`${Classes.subscribeNewsWrapper} p-4 mt-5`}>
+    <div className={`${Classes.subscribeNewsWrapper} p-4 my-5`}>
       <h1 className={`${Classes.blockTitle} text-white`}>
         Get Updates by subscribing our newsletter
       </h1>
@@ -33,6 +34,18 @@ const SubscribeNews = () => {
           placeholder='Enter your email adress'
         />
       </div>
+      <div>
+        <div class='my-3 form-check'>
+          <input type='checkbox' class='form-check-input' id='exampleCheck1' />
+          <label
+            class='form-check-label text-white text-white'
+            for='exampleCheck1'
+          >
+            I agree with terms and agreement
+          </label>
+        </div>
+      </div>
+      <Button className={Classes.subscribeBtn}>Suscribe</Button>
     </div>
   )
 }

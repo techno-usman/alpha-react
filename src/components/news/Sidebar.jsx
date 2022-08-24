@@ -2,6 +2,10 @@ import React from 'react'
 import Classes from '../scss/news/Sidebar.module.scss'
 import { ReactComponent as SearchIcon } from '../../assets/svg/search.svg'
 import SubscribeNews from './SubscribeNews'
+import VideoItem from './VideoItem'
+import TopRecent from './TopRecent'
+import LatestScreenShot from './LatestScreenShot'
+import PopularBlock from './PopularBlock'
 
 const Sidebar = () => {
   return (
@@ -19,6 +23,10 @@ const Sidebar = () => {
         </div>
       </div>
       <SubscribeNews />
+      <VideoItem />
+      <TopRecent />
+      <LatestScreenShot />
+      <PopularBlock />
     </aside>
   )
 }

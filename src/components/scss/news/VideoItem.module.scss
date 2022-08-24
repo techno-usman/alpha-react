@@ -1,0 +1,16 @@
+.videoItem{
+    background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
+    .imgItem{
+        height: 207px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .playIcon{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+    }
+}
