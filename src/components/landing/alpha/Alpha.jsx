@@ -1,7 +1,7 @@
-import React from 'react';
-import { Row, Container, Col, Button } from 'react-bootstrap';
-import Classes from '../../scss/twoBlock.module.scss';
-import alphaImg from '../../../assets/images/components/alpha.webp';
+import React from 'react'
+import { Row, Container, Col, Button } from 'react-bootstrap'
+import Classes from '../../scss/twoBlock.module.scss'
+import alphaImg from '../../../assets/images/components/alpha.webp'
 
 const Alpha = () => {
   return (
@@ -13,7 +13,7 @@ const Alpha = () => {
         <Row className='align-items-center'>
           <Col lg={6}>
             <div className='py-3'>
-              <img src={alphaImg} alt='alphaImg' />
+              <img src={alphaImg} className='w-100' alt='alphaImg' />
             </div>
           </Col>
           <Col lg={6}>
@@ -30,7 +30,7 @@ const Alpha = () => {
         </Row>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Alpha;
+export default Alpha

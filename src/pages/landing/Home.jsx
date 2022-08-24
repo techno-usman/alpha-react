@@ -9,7 +9,7 @@ import NftToken from '../../components/landing/nftToken/NftToken'
 import ESports from '../../components/landing/eSports/ESports'
 import Store from '../../components/landing/store/Store'
 import Alpha from '../../components/landing/alpha/Alpha'
-
+import Faq from '../../components/landing/faq/Faq'
 import Partners from '../../components/landing/partners/Partners'
 import Subscribe from '../../components/subscribe/Subscribe'
 import Footer from '../../layout/Footer/Footer'
@@ -17,19 +17,20 @@ import Footer from '../../layout/Footer/Footer'
 const Home = () => {
   return (
     <>
-    <Header />
-    <Banner />
-    <WelcomeAlpha />
-    <Achievement />
-    <NewGames />
-    <RecentInformation />
-    <NftToken />
-    <ESports />
-    <Store />
-    <Alpha />
-    <Partners />
-    <Subscribe />
-    <Footer />
+      <Header />
+      <Banner />
+      <WelcomeAlpha />
+      <Achievement />
+      <NewGames />
+      <RecentInformation />
+      <NftToken />
+      <ESports />
+      <Store />
+      <Alpha />
+      <Faq />
+      <Partners />
+      <Subscribe />
+      <Footer />
     </>
   )
 }

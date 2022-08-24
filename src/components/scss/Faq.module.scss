@@ -1,0 +1,16 @@
+.faqWrapper {
+  background: #0f0336;
+  .blockTitle {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    @media (max-width: 1400px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
