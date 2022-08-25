@@ -13,33 +13,37 @@ const SubscribeNews = () => {
         then please subscribe to our mailing list.
       </p>
       <div className='mb-2'>
-        <label for='inputPassword5' class={`${Classes.label} mb-1`}>
+        <label htmlFor='inputPassword5' className={`${Classes.label} mb-1`}>
           Full Name
         </label>
         <input
           type='text'
           id='fulName'
-          class={`form-control ${Classes.inputItem}`}
+          className={`form-control ${Classes.inputItem}`}
           placeholder='Enter your name'
         />
       </div>
       <div>
-        <label for='inputPassword5' class={`${Classes.label} mb-1`}>
+        <label htmlFor='inputPassword5' class={`${Classes.label} mb-1`}>
           Email
         </label>
         <input
           type='text'
           id='fulName'
-          class={`form-control ${Classes.inputItem}`}
+          className={`form-control ${Classes.inputItem}`}
           placeholder='Enter your email adress'
         />
       </div>
       <div>
-        <div class='my-3 form-check'>
-          <input type='checkbox' class='form-check-input' id='exampleCheck1' />
+        <div className='my-3 form-check'>
+          <input
+            type='checkbox'
+            className='form-check-input'
+            id='exampleCheck1'
+          />
           <label
-            class='form-check-label text-white text-white'
-            for='exampleCheck1'
+            className='form-check-label text-white text-white'
+            htmlFor='exampleCheck1'
           >
             I agree with terms and agreement
           </label>

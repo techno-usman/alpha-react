@@ -1,0 +1,64 @@
+.commentsWrapper {
+  .blockTitle {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #fc00ff;
+  }
+  .viewAll {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.commentWrapper {
+  .userImg {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    object-fit: cover;
+    @media (max-width: 768px) {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .commentMetaInfo {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #d7d8bd;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  .userName {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #e6e6e6;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  .userMsg {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #d7d8bd;
+    @media (max-width: 768px) {
+        font-size: 14px;
+      }
+  }
+}

@@ -7,6 +7,7 @@ import Subscribe from '../../components/subscribe/Subscribe'
 import Footer from '../../layout/Footer/Footer'
 import Classes from './Blog.module.scss'
 import { Container, Row, Col } from 'react-bootstrap'
+import Comments from '../../components/blog/Comments'
 
 const BlogDetails = () => {
   return (
@@ -25,6 +26,7 @@ const BlogDetails = () => {
           <Row>
             <Col lg={8}>
               <BlogDetailsCard />
+              <Comments />
             </Col>
             <Col lg={4}>
               <BlogSidebar />

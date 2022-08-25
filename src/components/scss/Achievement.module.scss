@@ -6,5 +6,9 @@
         font-weight: 600;
         font-size: 48px;
         line-height: 67px;
+        @media (max-width: 768px) {
+            font-size: 30px;
+            line-height: 45px;
+          }
     }
 }

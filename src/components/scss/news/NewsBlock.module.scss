@@ -5,6 +5,10 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 68px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 45px;
+    }
   }
   .filterBtnWrapper {
     .filterBtn {

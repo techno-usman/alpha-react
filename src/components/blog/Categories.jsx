@@ -8,60 +8,60 @@ const Categories = () => {
       <h1 className={`${Classes.blockTitle} my-3`}>CATEGORIEOS</h1>
       <Row>
         <Col lg={6}>
-          <div class={`form-check mb-3 ${Classes.checkboxItem}`}>
+          <div className={`form-check mb-3 ${Classes.checkboxItem}`}>
             <input
               type='checkbox'
-              class={`form-check-input ${Classes.checkboxInput}`}
+              className={`form-check-input ${Classes.checkboxInput}`}
               id='exampleCheck1'
             />
             <label
-              class={`form-check-label text-white text-white ${Classes.label}`}
-              for='exampleCheck1'
+              className={`form-check-label text-white text-white ${Classes.label}`}
+              htmlFor='exampleCheck1'
             >
               ANIMATIONS
             </label>
           </div>
         </Col>
         <Col lg={6}>
-          <div class={`form-check mb-3 ${Classes.checkboxItem}`}>
+          <div className={`form-check mb-3 ${Classes.checkboxItem}`}>
             <input
               type='checkbox'
-              class={`form-check-input ${Classes.checkboxInput}`}
+              className={`form-check-input ${Classes.checkboxInput}`}
               id='exampleCheck1'
             />
             <label
-              class={`form-check-label text-white text-white ${Classes.label}`}
-              for='exampleCheck1'
+              className={`form-check-label text-white text-white ${Classes.label}`}
+              htmlFor='exampleCheck1'
             >
               GAMES
             </label>
           </div>
         </Col>
         <Col lg={6}>
-          <div class={`form-check mb-3 ${Classes.checkboxItem}`}>
+          <div className={`form-check mb-3 ${Classes.checkboxItem}`}>
             <input
               type='checkbox'
-              class={`form-check-input ${Classes.checkboxInput}`}
+              className={`form-check-input ${Classes.checkboxInput}`}
               id='exampleCheck1'
             />
             <label
-              class={`form-check-label text-white text-white ${Classes.label}`}
-              for='exampleCheck1'
+              className={`form-check-label text-white text-white ${Classes.label}`}
+              htmlFor='exampleCheck1'
             >
               TRENDING
             </label>
           </div>
         </Col>
         <Col lg={6}>
-          <div class={`form-check mb-3 ${Classes.checkboxItem}`}>
+          <div className={`form-check mb-3 ${Classes.checkboxItem}`}>
             <input
               type='checkbox'
-              class={`form-check-input ${Classes.checkboxInput}`}
+              className={`form-check-input ${Classes.checkboxInput}`}
               id='exampleCheck1'
             />
             <label
-              class={`form-check-label text-white text-white ${Classes.label}`}
-              for='exampleCheck1'
+              className={`form-check-label text-white text-white ${Classes.label}`}
+              htmlFor='exampleCheck1'
             >
               POPULAR
             </label>

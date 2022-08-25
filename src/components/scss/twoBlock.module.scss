@@ -6,6 +6,10 @@
         font-size: 48px;
         line-height: 68px;
         color: #FFFFFF;
+        @media (max-width: 768px) {
+            font-size: 30px;
+            line-height: 45px;
+          }
     }
     .description{
         font-family: 'Sofia Pro';
