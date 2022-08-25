@@ -1,0 +1,24 @@
+.categoriesWrapper{
+    .blockTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #DBDBDB;
+        text-transform: uppercase;
+    }
+   
+}
+.checkboxItem{
+    .checkboxInput{
+        background-color: #407BFF !important;
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+    }
+    .label{
+        position: relative;
+        top: 3px;
+    }
+}

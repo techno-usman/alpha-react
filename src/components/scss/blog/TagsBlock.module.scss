@@ -1,0 +1,26 @@
+.tagsBlockWrapper{
+    .blockTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #DBDBDB;
+        text-transform: uppercase;
+    }
+    .tagsWrapper{
+        .tag{
+            display: inline-block;
+            background: #1B0D3D;
+            border-radius: 100px;
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+            height: 35px;
+        }
+    }
+}

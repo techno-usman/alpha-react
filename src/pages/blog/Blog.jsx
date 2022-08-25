@@ -3,6 +3,7 @@ import Header from '../../layout/Header/Header'
 import BreadCrumb from '../../components/common/BreadCrumb'
 import PopularBlog from '../../components/blog/PopularBlog'
 import BlogCard from '../../components/blog/BlogCard'
+import BlogSidebar from '../../components/blog/BlogSidebar'
 
 import Subscribe from '../../components/subscribe/Subscribe'
 import Footer from '../../layout/Footer/Footer'
@@ -27,6 +28,9 @@ const Blog = () => {
               <BlogCard />
               <BlogCard />
               <BlogCard />
+            </Col>
+            <Col lg={4}>
+              <BlogSidebar />
             </Col>
           </Row>
         </Container>

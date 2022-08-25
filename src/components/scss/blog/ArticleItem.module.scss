@@ -1,0 +1,19 @@
+.itemWrapper{
+    .itemImg{
+        border-radius: 4px;
+        height: 152px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .topicTitle{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    .dateItem{
+        background: #407BFF;
+    }
+}
