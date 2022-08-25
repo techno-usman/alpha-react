@@ -33,6 +33,10 @@
         border-radius: 0;
         height: 84px;
         flex: 1;
+        &:hover {
+          background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+          border-color: #ff00c8;
+      }
     }
   }
 }

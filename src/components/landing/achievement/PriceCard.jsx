@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import CardImg from '../../../assets/images/components/achivementCard.webp'
 const PriceCard = () => {
   return (
-    <div className={`${Classes.cardBlockWrapper} py-2 px-3`}>
+    <div className={`${Classes.cardBlockWrapper} p-2 mx-2`}>
         <div>
             <img src={CardImg} alt='CardImg' className={Classes.cardImgItem} />
         </div>

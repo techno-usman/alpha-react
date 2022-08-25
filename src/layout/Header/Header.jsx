@@ -96,9 +96,9 @@ const Header = () => {
                   </Link>
                   <Link
                     to='/signup'
-                    className={`${Classes.signupBtn} text-white text-decoration-none py-3 px-4`}
+                    className={`${Classes.signupBtn} text-white text-decoration-none d-flex justify-content-center align-items-center`}
                   >
-                    Sign up
+                    <span>Sign up</span>
                   </Link>
                 </div>
               </div>

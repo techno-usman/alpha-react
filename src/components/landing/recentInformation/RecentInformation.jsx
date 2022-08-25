@@ -8,7 +8,7 @@ const RecentInformation = () => {
     <div
       className={`${Classes.recentInformationWrapper} py-5 achievementWrapper`}
     >
-      <Container>
+      <Container> 
         <Row className='mb-5'>
           <Col>
             <InfoCardsCarousel />
