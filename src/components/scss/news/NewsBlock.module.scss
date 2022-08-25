@@ -20,6 +20,9 @@
     .activeBtn {
       background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
       border: 0;
+      &:hover {
+        background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+    }
     }
   }
   .pinkEllipsis {
@@ -35,5 +38,8 @@
     box-shadow: 0px 5px 14px rgba(242, 72, 115, 0.38);
     border-radius: 100px;
     border: 0;
+    &:hover {
+      background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+  }
   }
 }

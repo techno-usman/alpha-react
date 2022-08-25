@@ -28,6 +28,9 @@
         line-height: 25px;
         color: #FFFFFF;
         border: 0;
+        &:hover {
+            background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+        }
     }
     .pinkItemEllipsis{
         width: 302px;

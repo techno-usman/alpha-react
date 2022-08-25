@@ -36,6 +36,9 @@
     line-height: 100%;
     letter-spacing: 0.02em;
     color: #ffffff;
+    &:hover {
+      background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+  }
   }
   .date {
     font-family: 'Sofia Pro';

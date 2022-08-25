@@ -30,6 +30,9 @@
     line-height: 20px;
     color: #ffffff;
     border: 0;
+    &:hover {
+      background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+  }
   }
 
   .title {

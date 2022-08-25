@@ -21,5 +21,8 @@
         font-size: 18px;
         line-height: 25px;
         color: #FFFFFF;
+        &:hover {
+            background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+        }
     }
 }

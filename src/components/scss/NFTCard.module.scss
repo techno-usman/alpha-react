@@ -38,5 +38,8 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         border: 0;
+        &:hover {
+            background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+        }
     }
 }

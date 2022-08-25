@@ -16,7 +16,7 @@ const navLinks = [
   },
   {
     pageName: 'Blog',
-    to: '/blog',
+    to: '/home/blog',
   },
   {
     pageName: 'News',
