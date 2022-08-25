@@ -11,10 +11,43 @@ body {
   background-color: #1B0D3D;
 }
 
+/* fonts start */
+
 @font-face {
   font-family: 'Sofia Pro';
+  font-weight: 300;
   src: url("./assets/fonts/sofiapro-light.otf") format("opentype");
 }
+
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  font-weight: 400;
+  src: url("./assets/fonts/Sofia-Pro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Sofia Pro SemiBold';
+  font-weight: 600;
+  src: url("./assets/fonts/Sofia-Pro-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Sofia Pro Medium';
+  font-weight: 500;
+  src: url("./assets/fonts/Sofia-Pro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Sofia Pro Bold';
+  font-weight: 700;
+  src: url("./assets/fonts/Sofia-Pro-Bold.ttf") format("truetype");
+}
+
+
+
+
+
+/* fonts end */
 #root{
   overflow-x: hidden;
 }

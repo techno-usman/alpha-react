@@ -8,14 +8,14 @@ const HorizontolNewsCard = () => {
   return (
     <div className={`${Classes.horizontolNewsCardWrapper} p-4 mb-3`}>
       <div className='flex-column d-flex flex-lg-row align-items-center gap-4'>
-        <div>
+        <div style={{ flex: '1' }}>
           <img
             src={BannerOneImg}
             alt='BannerOneImg'
             className={`${Classes.cardImg}`}
           />
         </div>
-        <div>
+        <div style={{ flex: '2' }}>
           <h3 className={`${Classes.cardTitle} text-white`}>
             GRAB YOUR SWORD AND FIGHT THE HORDE
           </h3>

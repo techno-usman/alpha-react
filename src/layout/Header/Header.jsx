@@ -56,7 +56,7 @@ const Header = () => {
             </Button>
             {/* desktop navbar start */}
             <div className='d-none d-xl-flex justify-content-between flex-wrap gap-2'>
-              <ul className='list-unstyled  d-flex flex-wrap align-items-center gap-2 gap-lg-4 mb-0'>
+              <ul className='list-unstyled  d-flex flex-wrap align-items-center gap-2 gap-lg-4 mb-0 me-3'>
                 {navLinks.map((item, index) => (
                   <li key={index}>
                     <NavLink

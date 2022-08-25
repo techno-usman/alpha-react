@@ -2,13 +2,12 @@
     background: #2F1B61;
     border-radius: 12px;
     .cardImg{
-        width: 165px;
         height: 182px;
         object-fit: cover;
         border-radius: 4px;
     }
     .date{
-        font-family: 'Sofia Pro';
+        font-family: 'Sofia Pro Medium';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -34,7 +33,7 @@
         }
     }
     .description{
-        font-family: 'Sofia Pro';
+        font-family: 'Sofia Pro Regular';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
