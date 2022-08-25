@@ -8,6 +8,7 @@ import { ReactComponent as Linkedin } from '../../assets/svg/linkedin.svg'
 import { ReactComponent as Twitter } from '../../assets/svg/twitter.svg'
 import { ReactComponent as Instagram } from '../../assets/svg/instagram.svg'
 import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg'
+import { Link } from 'react-router-dom'
 
 const BlogCard = () => {
   return (
@@ -55,7 +56,9 @@ const BlogCard = () => {
           </div>
         </div>
         <span>
-          <Button className={Classes.readmoreBtn}>Read More</Button>
+          <Link to='/home/blog/details'>
+            <Button className={Classes.readmoreBtn}>Read More</Button>
+          </Link>
         </span>
       </div>
     </div>

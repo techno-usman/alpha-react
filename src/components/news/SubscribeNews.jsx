@@ -4,7 +4,7 @@ import Classes from '../scss/news/SubscribeNews.module.scss'
 
 const SubscribeNews = () => {
   return (
-    <div className={`${Classes.subscribeNewsWrapper} p-4 my-5`}>
+    <div className={`${Classes.subscribeNewsWrapper} p-4 mb-5 mt-4`}>
       <h1 className={`${Classes.blockTitle} text-white`}>
         Get Updates by subscribing our newsletter
       </h1>

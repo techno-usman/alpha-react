@@ -10,7 +10,7 @@ import PopularBlock from './PopularBlock'
 const Sidebar = () => {
   return (
     <aside className={Classes.asideWrapper}>
-      <div>
+      <div className='pt-3'>
         <div
           className={`${Classes.searchWrapper} py-2 px-3 d-flex align-items-center gap-2 ms-auto`}
         >

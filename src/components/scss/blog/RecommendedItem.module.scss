@@ -1,0 +1,24 @@
+.recommendedItemWrapper {
+  .imgItem {
+    border-radius: 4px;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .titleItem {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #acacac;
+  }
+  .metaInfo {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fc00ff;
+  }
+}
