@@ -82,14 +82,16 @@ const Header = () => {
                     type='search'
                     className={`bg-transparent ${Classes.searchInput}`}
                   />
-                </div>
+                </div>{/*}
+
                 <div
                   className={`${Classes.selectWrapper} py-2 px-3 d-flex align-items-center me-0 me-lg-2`}
                 >
                   <select name='' id='' className={Classes.navSelect}>
                     <option>Games</option>
                   </select>
-                </div>
+                    </div>*/}
+
                 <div className='d-flex align-items-center gap-2 gap-md-3 flex-wrap'>
                   <Link to='/login' className='text-white text-decoration-none'>
                     Login
@@ -133,13 +135,15 @@ const Header = () => {
                           className={`bg-transparent ${Classes.searchInput}`}
                         />
                       </div>
+                      {/*
                       <div
                         className={`${Classes.selectWrapper} py-2 px-3 d-flex align-items-center me-0 me-lg-2 mb-3`}
                       >
                         <select name='' id='' className={Classes.navSelect}>
                           <option>Games</option>
                         </select>
-                      </div>
+                      </div>*/}
+
                       <div className='d-flex align-items-center gap-2 gap-md-3 flex-wrap'>
                         <Link
                           to='/login'
