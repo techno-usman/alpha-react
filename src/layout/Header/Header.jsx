@@ -78,7 +78,7 @@ const Header = () => {
                 >
                   <SearchIcon />
                   <input
-                    placeholder='Search for Games'
+                    placeholder='Search'
                     type='search'
                     className={`bg-transparent ${Classes.searchInput}`}
                   />
@@ -128,7 +128,7 @@ const Header = () => {
                       >
                         <SearchIcon />
                         <input
-                          placeholder='Search for Games'
+                          placeholder='Search'
                           type='search'
                           className={`bg-transparent ${Classes.searchInput}`}
                         />
