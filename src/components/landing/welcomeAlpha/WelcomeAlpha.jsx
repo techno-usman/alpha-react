@@ -7,8 +7,8 @@ const WelcomeAlpha = () => {
   return (
     <div className={`${Classes.welcomeAlphaWrapper} py-5`}>
       <Container>
-        <Row>
-          <Col lg={12}>
+        <Row className='justify-content-center'>
+          <Col lg={8}>
             <h1 className={`text-center mb-2 ${Classes.title}`}>
               <span className='text-white'>Welcome to</span>{' '}
               <span style={{ color: '#EE05FF' }}>Alpha Play</span>
