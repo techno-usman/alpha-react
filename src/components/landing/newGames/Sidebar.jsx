@@ -7,10 +7,10 @@ const Sidebar = () => {
     <aside className={Classes.sidebarWrapper}>
         <div className='mb-5'>
             <img src={BannerOneImg} alt='BannerOneImg' className={Classes.sidebarImg} />
-        </div>
+        </div>{/** 
         <div>
             <img src={AchivementLargeCard} alt='AchivementLargeCard' className={Classes.sidebarImgItem} />
-        </div>
+        </div>*/}
     </aside>
   )
 }

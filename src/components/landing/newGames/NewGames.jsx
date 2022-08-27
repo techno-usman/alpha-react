@@ -39,13 +39,13 @@ const NewGames = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <NewGameCard />
-                                </Col>
+                                </Col>{/** 
                                 <Col lg={6}>
                                     <NewGameCard />
                                 </Col>
                                 <Col lg={6}>
                                     <NewGameCard />
-                                </Col>
+                                </Col>*/}
                             </Row>
                         </div>
                         <div>
@@ -61,13 +61,13 @@ const NewGames = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <NewGameCard />
-                                </Col>
+                                </Col>{/** 
                                 <Col lg={6}>
                                     <NewGameCard />
                                 </Col>
                                 <Col lg={6}>
                                     <NewGameCard />
-                                </Col>
+                                </Col>*/}
                             </Row>
                         </div>
                     </Slider>
@@ -75,7 +75,7 @@ const NewGames = () => {
                 <Col lg={4}>
                     <Sidebar />
                 </Col>
-            </Row>
+            </Row>{/*
             <Row className='mt-5'>
                 <Col lg={6}>
                     <VideoItem />
@@ -88,7 +88,7 @@ const NewGames = () => {
                 <Button className={Classes.viewAllBtn}>
                     View All
                 </Button>
-            </div>
+            </div>*/}
         </Container>
     </div>
   )

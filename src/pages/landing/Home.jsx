@@ -21,12 +21,12 @@ const Home = () => {
       <Banner />
       <WelcomeAlpha />
       <Achievement />
-      <NewGames />
-      <RecentInformation />
+      <NewGames />{/** 
+      <RecentInformation />*/}
       <NftToken />
-      <ESports />
+      {/*<ESports />
       <Store />
-      <Alpha />
+      <Alpha />*/}
       <Faq />
       <Partners />
       <Subscribe />
