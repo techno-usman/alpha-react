@@ -21,7 +21,7 @@ const PresalePhaseDetail = (props) => {
             `}
             </style>
 
-            <div className={`${Classes.presalePhaseDetailWrapper} d-flex mt-4`}>
+            <div className={`${Classes.presalePhaseDetailWrapper} d-flex mt-5`}>
                 <div><CheckMarkCircleIcon fill={`${(color === 'info') ? '#A0A0A0' : '#4EC040'}`} /></div>
                 <div className="ms-4 w-100">
                     <h4 className={`${Classes.presalePhaseDetailTitle} mb-0`}>{title}</h4>

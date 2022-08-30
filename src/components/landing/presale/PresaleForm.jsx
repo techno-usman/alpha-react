@@ -1,10 +1,17 @@
 import { Form, Button, Col, Row, Container } from 'react-bootstrap';
 import Classes from '../../scss/PresaleForm.module.scss';
+import Countdown from 'react-countdown';
 
 const PresaleForm = () => {
     return (
         <div className={Classes.presaleForm}>
-            <Container className={Classes.presaleFormBgColor + ' ' + Classes.presaleFormContainer1}>
+            <Container className={`${Classes.presaleFormBgColor + ' ' + Classes.presaleFormContainer1} pt-1`}>
+                <Row className="mb-4">
+                    <Col className="text-center">
+                        <h4>PRE - SALE INFO</h4>
+                        <Countdown date={Date.now() + 100000000} className={Classes.timerOutline} />
+                    </Col>
+                </Row>
                 <Row>
                     <Col>
                         <Form.Group className="mb-3">
