@@ -21,13 +21,13 @@ const Presale = () => {
                 </Row>
                 <Row className='mt-5'>
                     <Col lg={6}>
-                        <div className={`${Classes.presaleBlockBg}`}>
+                        <div className={`${Classes.presaleBlock} pb-5`}>
                             <PresaleTotalRaised />
                             <PresalePhasesDetail />
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <div className={`${Classes.presaleBlockBg}`}>
+                        <div className={`${Classes.presaleBlock + ' ' + Classes.flatBottom}`}>
                             <PresaleConnectWallet />
                         </div>
                         <div>
