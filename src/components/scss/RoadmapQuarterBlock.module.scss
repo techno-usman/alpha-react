@@ -1,0 +1,40 @@
+.RoadmapQuarterBlockWrapper {
+    width: 450px;
+    height: 246px;
+
+    &.gradientBox {
+        position: relative;
+        box-sizing: border-box;
+        $border: 5px;
+        color: #FFF;
+        background: #2F1B61;
+        background-clip: padding-box;
+        /* !importanté */
+        border: solid $border transparent;
+        /* !important */
+        border-radius: 1em;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            margin: -$border;
+            /* !important*/
+            border-radius: inherit;
+            /* !important */
+            background: linear-gradient(to bottom, #EE0DFE, #25BCE3);
+        }
+    }
+
+    .roadmapQuarterBlockList {
+        --bs-list-group-color: #FFF;
+        --bs-list-group-bg: none;
+        --bs-list-group-border-color: none;
+        font-size: 18px;
+    }
+
+}

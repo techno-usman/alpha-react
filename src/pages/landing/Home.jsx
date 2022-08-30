@@ -7,6 +7,7 @@ import Presale from '../../components/landing/presale/Presale'
 import NewGames from '../../components/landing/newGames/NewGames'
 import RecentInformation from '../../components/landing/recentInformation/RecentInformation'
 import NftToken from '../../components/landing/nftToken/NftToken'
+import Roadmap from '../../components/landing/roadmap/Roadmap'
 import ESports from '../../components/landing/eSports/ESports'
 import Store from '../../components/landing/store/Store'
 import Alpha from '../../components/landing/alpha/Alpha'
@@ -26,6 +27,7 @@ const Home = () => {
       <NewGames />{/** 
       <RecentInformation />*/}
       <NftToken />
+      <Roadmap />
       {/*<ESports />
       <Store />
       <Alpha />*/}
