@@ -6,7 +6,7 @@ const PresaleForm = () => {
     return (
         <div className={Classes.presaleForm}>
             <Container className={`${Classes.presaleFormBgColor + ' ' + Classes.presaleFormContainer1} pt-1`}>
-                <Row className="mb-4">
+                <Row className="mb-3">
                     <Col className="text-center">
                         <h4>PRE - SALE INFO</h4>
                         <Countdown date={Date.now() + 100000000} className={Classes.timerOutline} />
@@ -39,18 +39,18 @@ const PresaleForm = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="mt-4">
+            <Container className="mt-3">
                 <Row>
                     <Col>
                         <Form.Group className="mb-3">
                             <Form.Label className={Classes.label}>Total in Tokens</Form.Label>
-                            <Form.Control type="text" placeholder="0.00" className={Classes.inputField + " " + Classes.inputBgColor} />
+                            <Form.Control type="text" placeholder="0.00" className={Classes.inputField + " " + Classes.inputBgColor} disabled />
                         </Form.Group>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-1">
                             <Form.Check.Input className={Classes.IAgreeCheckBox} />
                             <Form.Check.Label className={Classes.IAgreeCheckBoxLabel}>I agree to term of services (Including purscher’s citizenship and or residency restriction) and Privacy Policy</Form.Check.Label>
                         </Form.Group>
@@ -58,14 +58,14 @@ const PresaleForm = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Form.Group className="mb-3">
+                        <Form.Group>
                             <Form.Check.Input className={Classes.IAgreeCheckBox} />
                             <Form.Check.Label className={Classes.IAgreeCheckBoxLabel}>I am not a citizen and or resident of FATF blacklist countries and or countries not recognized by the EU</Form.Check.Label>
                         </Form.Group>
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ textAlign: 'center' }}>
+                    <Col className="mt-3" style={{ textAlign: 'center' }}>
                         <Button className={Classes.actionBtn}>
                             Buy Now
                         </Button>

@@ -22,7 +22,7 @@ const PresaleTotalRaised = () => {
     ];
 
     return (
-        <div className={`${Classes.presaleTotalRaisedWrapper} py-3`}>
+        <div className={`${Classes.presaleTotalRaisedWrapper} py-5`}>
             <Container>
                 <Row>
                     <Col>

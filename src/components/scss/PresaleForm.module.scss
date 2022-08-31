@@ -12,7 +12,7 @@
     }
 
     .inputField {
-        height: 64px;
+        height: 56px;
         background-color: #1B0D3D;
         border-radius: 6px;
         border: 0;
@@ -20,6 +20,17 @@
 
         &.inputBgColor {
             background-color: #2F1B61;
+        }
+
+        &::placeholder {
+
+            color: #FFF;
+            opacity: 1;
+
+        }
+
+        &::-ms-input-placeholder {
+            color: #FFF;
         }
     }
 
@@ -70,6 +81,10 @@
 
     .IAgreeCheckBox {
         margin-right: 10px;
+        background-color: #2F1B61;
+        border: 0;
+        box-shadow: none;
+        cursor: pointer;
     }
 
     .actionBtn {
@@ -84,6 +99,7 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         border: 0;
+        width: 245px;
 
         &:hover {
             background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
