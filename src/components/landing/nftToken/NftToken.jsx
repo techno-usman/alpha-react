@@ -29,7 +29,7 @@ const NftToken = () => {
         </Row>
         <Row className='mt-5 position-relative'>
           <Col lg={4}>
-            <NFTCard cardTitle='Gold' cardImg={GoldImg} />
+            <NFTCard cardTitle='Bronze' cardImg={BronzeImg} />
             {
               //<div className={`${Classes.bgCirclePink} position-absolute`}></div>
             }
@@ -41,7 +41,7 @@ const NftToken = () => {
             {
               //<div className={`${Classes.bgCircleBlue} position-absolute`}></div>
             }
-            <NFTCard cardTitle='Bronze' cardImg={BronzeImg} />
+            <NFTCard cardTitle='Gold' cardImg={GoldImg} />
           </Col>
         </Row>
       </Container>
