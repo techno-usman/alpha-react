@@ -1,6 +1,7 @@
 .roadMapWrapper {
     font-family: 'Sofia Pro';
     font-weight: 400;
+    padding: 120px 0;
 
     .triangle {
         width: 100vh;
@@ -9,7 +10,7 @@
     }
 
     .roadMapHeadingContainer {
-        margin-top: 180px;
+        margin-top: 40px;
         position: relative;
 
         .roadMapTitle {
@@ -67,5 +68,4 @@
             top: -94px;
         }
     }
-
 }

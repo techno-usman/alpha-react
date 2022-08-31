@@ -59,7 +59,7 @@ const Roadmap = () => {
                     </Col>
                 </Row>
             </Container >
-        </div >
+        </div>
     );
 };
 
