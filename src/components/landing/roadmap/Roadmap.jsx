@@ -4,6 +4,7 @@ import { ReactComponent as TickInsideCircle } from '../../../assets/svg/tick-ins
 import RoadmapQuarterBlock from './RoadmapQuarterBlock';
 
 const Roadmap = () => {
+
     return (
         <div className={Classes.roadMapWrapper}>
             <Container>
@@ -21,25 +22,66 @@ const Roadmap = () => {
                 </Row>
                 <Row style={{ marginTop: "7rem" }}>
                     <Col lg={4} className="p-0">
-                        <RoadmapQuarterBlock />
+                        <RoadmapQuarterBlock label="Q4 2022" listItems={[{
+                            name: "Discord server - Launched",
+                            status: "completed",
+                        }, {
+                            name: "Community Grow to 10,000 members",
+                            status: "ongoing",
+                        }, {
+                            name: "Token Smart  Contract",
+                            status: "completed",
+                        },
+                        ]} />
                     </Col>
                     <Col lg={4} className="p-0">
                         <hr className={Classes.roadmapConnectingLines} />
                     </Col>
                     <Col lg={4} className="p-0">
-                        <RoadmapQuarterBlock />
+                        <RoadmapQuarterBlock label="Q2 2022" listItems={[{
+                            name: "Pre-Sale",
+                            status: "ongoing",
+                        }, {
+                            name: "eam Expansion",
+                            status: "completed",
+                        }, {
+                            name: "NFT Pre-Sale",
+                            status: "completed",
+                        },
+                        ]} />
                     </Col>
                 </Row>
-                <Row style={{ marginTop: "200px" }}>
-                    <Col lg={4} className="p-0">
-                        <RoadmapQuarterBlock />
+                <Row style={{ marginTop: "200px" }} ClassName="flex-row-reverse">
+                    <Col lg={4} className="position-relative p-0">
+                        <div class={`${Classes.rodmapConnectingVerticalLine} vr`}></div>
+                        <RoadmapQuarterBlock label="Q2 2022" listItems={[{
+                            name: "User system",
+                            status: "ongoing",
+                        }, {
+                            name: "Daily Task integration",
+                            status: "ongoing",
+                        }, {
+                            name: "Play2Earn system launch",
+                            status: "toBeCompleted",
+                        },
+                        ]} />
                     </Col>
                     <Col lg={4} className="p-0">
                         <hr className={Classes.roadmapConnectingLines} />
                     </Col>
                     <Col lg={4} className="p-0 position-relative">
-                        <div class={`${Classes.rodmapConnectingVerticalLine} vr`}></div>
-                        <RoadmapQuarterBlock />
+
+                        <RoadmapQuarterBlock label="Q5 2022" listItems={[{
+                            name: "Referral system",
+                            status: "ongoing",
+                        }, {
+                            name: "Public Sale",
+                            status: "toBeCompleted",
+                        }, {
+                            name: "Staking",
+                            status: "toBeCompleted",
+                        },
+                        ]} />
                     </Col>
                 </Row>
                 <Row style={{ marginTop: "200px" }} className={Classes.roadmapZigZagConnector}>
@@ -55,7 +97,20 @@ const Roadmap = () => {
                 </Row>
                 <Row className="justify-content-center">
                     <Col lg={8}>
-                        <RoadmapQuarterBlock />
+                        <RoadmapQuarterBlock label="Q6 2022" listItems={[{
+                            name: "AlphaPlay V2 Token Contract(New Futures, Governance ,Transaction Tax , Voting power )",
+                            status: "toBeCompleted",
+                        }, {
+                            name: "Esports/Betting Smart Contract",
+                            status: "toBeCompleted",
+                        }, {
+                            name: "Online store release",
+                            status: "ongoing",
+                        }, {
+                            name: "AlphaPlay Open World Sandbox Crypto Game",
+                            status: "toBeCompleted",
+                        }
+                        ]} />
                     </Col>
                 </Row>
             </Container >

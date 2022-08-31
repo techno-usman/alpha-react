@@ -2,20 +2,9 @@ import { ListGroup } from 'react-bootstrap';
 import Classes from '../../scss/RoadmapQuarterBlock.module.scss';
 import { ReactComponent as TickInsideCircle } from '../../../assets/svg/tick-inside-circle-icon.svg';
 
-const RoadmapQuarterBlock = () => {
+const RoadmapQuarterBlock = (props) => {
 
-    const listItems = [{
-        name: "Discord server - Launched",
-        status: "completed",
-    }, {
-        name: "Community Grow to 10,000 members",
-        status: "ongoing",
-    }, {
-        name: "Token Smart  Contract",
-        status: "completed",
-    },
-
-    ];
+    const { label = '', listItems = [] } = props;
 
     const statusList =
     {
@@ -35,7 +24,7 @@ const RoadmapQuarterBlock = () => {
 
             </ListGroup>
             <div className={Classes.quarterBoxHeading}>
-                Q4 2022
+                {label}
             </div>
         </div>
     );
