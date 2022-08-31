@@ -1,6 +1,6 @@
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import LoginSignUpLeftCol from '../../components/common/loginSignUp/left-coulmn';
-
+import './SignUp.css';
 
 const signUp = () => {
     return (
