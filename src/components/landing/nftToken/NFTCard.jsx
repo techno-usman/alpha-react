@@ -27,16 +27,19 @@ const NFTCard = (props) => {
       tagName: 'Unique Avatar Ring',
     },
     {
-      tagName: '+1.5% Stacking bonus',
+      tagName: '+5% Stacking bonus',
     },
     {
-      tagName: '+3% Experience Bonus',
+      tagName: '+10% Experience Bonus',
     },
     {
-      tagName: '+1% Store Discount',
+      tagName: '+0.1% Validator Bonus',
     },
     {
-      tagName: 'Token Value 150',
+      tagName: '+5% Store Discount',
+    },
+    {
+      tagName: 'Token Value 450',
     }];
 
   const silverItems =
@@ -44,27 +47,43 @@ const NFTCard = (props) => {
       tagName: 'Unique Avatar Ring',
     },
     {
-      tagName: '+1.5% Stacking bonus',
+      tagName: '+3% Stacking bonus',
     },
     {
-      tagName: '+3% Experience Bonus',
+      tagName: '+7% Experience Bonus',
     },
     {
-      tagName: '+1% Store Discount',
+      tagName: '+3% Store Discount',
     },
     {
-      tagName: 'Token Value 150',
+      tagName: 'Token Value 300',
     }];
 
   const cardClass = cardTitle.toLowerCase();
 
-  const listItems = bronzeItems.map((tag, index) =>
-    <li key={index}>{tag.tagName}</li>
-  );
+  let listItems = [];
+
+  if (cardClass === "gold") {
+    listItems = goldItems.map((tag, index) =>
+      <li key={index}>{tag.tagName}</li>
+    );
+  }
+
+  if (cardClass === "bronze") {
+    listItems = bronzeItems.map((tag, index) =>
+      <li key={index}>{tag.tagName}</li>
+    );
+  }
+
+  if (cardClass === "silver") {
+    listItems = silverItems.map((tag, index) =>
+      <li key={index}>{tag.tagName}</li>
+    );
+  }
 
   return (
 
-    <div className={`${Classes.nftcardWrapper}`}>
+    <div className={`${Classes.nftcardWrapper + ' ' + Classes[cardClass]}`}>
       <div className="text-center">
         <img src={cardImg} alt='GoldImg' />
       </div>

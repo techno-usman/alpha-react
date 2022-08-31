@@ -25,12 +25,6 @@
         left: -100px;
     }
 
-    .goldNFTCard {
-        .CardDivider {
-            border-color: #fdac7d;
-        }
-    }
-
     .tagsWrapper {
         .tagItem {
             height: 28.78px;
@@ -45,8 +39,14 @@
             cursor: pointer;
         }
 
+
         .tagItemsList {
             margin-left: 80px;
+            min-height: 180px;
+
+            li {
+                margin-bottom: 5px;
+            }
         }
     }
 
@@ -99,6 +99,57 @@
 
         &:hover {
             background: linear-gradient(90deg, #ff00c8 0%, #00aade 100%);
+        }
+    }
+
+    &.silver {
+        .cardTitle {
+            -webkit-text-stroke-width: 1px;
+            stroke-width: 1px;
+            -webkit-text-stroke-color: #A4A4A4;
+            stroke: #A4A4A4;
+        }
+
+        .outlineBtn {
+            border-color: #A4A4A4;
+        }
+
+        .CardDivider {
+            border-color: #A4A4A4;
+        }
+    }
+
+    &.gold {
+        .cardTitle {
+            -webkit-text-stroke-width: 1px;
+            stroke-width: 1px;
+            -webkit-text-stroke-color: #D1A431;
+            stroke: #D1A431;
+        }
+
+        .outlineBtn {
+            border-color: #D1A431;
+        }
+
+        .CardDivider {
+            border-color: #D1A431;
+        }
+    }
+
+    &.bronze {
+        .cardTitle {
+            -webkit-text-stroke-width: 1px;
+            stroke-width: 1px;
+            -webkit-text-stroke-color: #fdac7d;
+            stroke: #fdac7d;
+        }
+
+        .outlineBtn {
+            border-color: #fdac7d;
+        }
+
+        .CardDivider {
+            border-color: #fdac7d;
         }
     }
 }
