@@ -1,16 +1,15 @@
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import LoginSignUpLeftCol from '../../components/common/loginSignUp/left-coulmn';
-import './login.css';
 
 
-const Login = () => {
+const signUp = () => {
     return (
         <Container fluid>
             <Row>
                 <Col lg={6} className="p-0">
                     <LoginSignUpLeftCol />
                 </Col>
-                <Col lg={6} className="p-0 bg-for-col-2-login">
+                <Col lg={6} className="bg-for-col-2-login">
                     <Row className="mt-5 mx-3">
                         <Col>
                             <Row>
@@ -20,50 +19,71 @@ const Login = () => {
                                     </svg>
                                 </Col>
                                 <Col>
-                                    <a href="" className="for-back-col-2-login">Back</a>
+                                    <a href="#" class="for-back-col-2-login">Back</a>
                                 </Col>
                             </Row>
                         </Col>
                         <Col className="text-end">
-                            <h5 className="for-Step-col-2-login">STEP 01/02</h5>
-                            <h5 className="for-info-col-2-login">Personal Info.</h5>
+                            <h5 class="for-Step-col-2-login">STEP 01/02</h5>
+                            <h5 class="for-info-col-2-login">Personal Info.</h5>
                         </Col>
                     </Row>
-                    <div className="for-form-container-col-2-login">
-                        <h1 className="for-login-col-2-login">Login</h1>
+                    <div class="for-form-container-col-2-login">
+                        <Row>
+                            <Col className="text-center">
+
+                            </Col>
+                        </Row>
+                        <Row className="pt-2">
+                            <Col className="text-center">
+                                <a href="#" className="picture-text-col-2-singup">Add profile picture</a>
+                            </Col>
+                        </Row>
+
+                        <h1 className="for-login-col-2-login">Register Individual Account!</h1>
                         <p className="form-text-col-2-login">For the purpose of regulation, your details are required.</p>
                         <form>
                             <div className="mb-4">
-                                <Form.Group className="mb-3" controlId="LoginInputEmail">
-                                    <Form.Label>Email*</Form.Label>
-                                    <Form.Control id="LoginInputEmail" className="input-for-log-in-and-singup-page" type="email" placeholder="Enter email address" />
+                                <Form.Group className="mb-3" controlId="SignUpInputfirstname">
+                                    <Form.Label>First Name</Form.Label>
+                                    <Form.Control id="SignUpInputfirstname" className="input-for-log-in-and-singup-page" type="text" placeholder="Enter Full Name" />
                                 </Form.Group>
                             </div>
                             <div class="mb-4">
 
-                                <Form.Group className="mb-3" controlId="LoginInputPassword">
-                                    <Form.Label>Password*</Form.Label>
-                                    <Form.Control id="LoginInputPassword" className="input-for-log-in-and-singup-page" type="password" placeholder="************" />
+                                <Form.Group className="mb-3" controlId="SignUpInputEmail">
+                                    <Form.Label>Email*</Form.Label>
+                                    <Form.Control id="SignUpInputEmail" className="input-for-log-in-and-singup-page" type="email" placeholder="Enter email address" />
                                 </Form.Group>
                             </div>
-                            <div className="mb-4 form-check p-0">
-
-                                <Row>
-                                    <Col>
-                                        <Form.Group className="mb-3" controlId="LoginRememberMeCheckbox">
-                                            <Form.Check type="checkbox" label="Remember me" />
-                                        </Form.Group>
-                                    </Col>
-                                    <Col className="text-end">
-                                        <a href="#" className="for-forget-pass-col-2-login">Forget Password?</a>
-                                    </Col>
-                                </Row>
+                            <div class="mb-4">
+                                <Form.Group className="mb-3" controlId="SignUpInputPassword">
+                                    <Form.Label>Password*</Form.Label>
+                                    <Form.Control id="SignUpInputPassword" className="input-for-log-in-and-singup-page" type="password" placeholder="************" />
+                                </Form.Group>
                             </div>
-                            <button type="submit" className="submit-btn">Log in</button>
+                            <div class="mb-4">
+                                <Form.Group className="mb-3" controlId="SignUpInputReEnterPassword">
+                                    <Form.Label>Password*</Form.Label>
+                                    <Form.Control id="SignUpInputReEnterPassword" className="input-for-log-in-and-singup-page" type="password" placeholder="************" />
+                                </Form.Group>
+                            </div>
+                            <div class="mb-4 form-check">
+                                <Form.Group className="mb-3" controlId="SignUpCheckboxIAgreeTerms">
+                                    <Form.Check type="checkbox" label="I have READ and agree to terms & conditions" />
+                                </Form.Group>
+                            </div>
+                            <div class="mb-4 form-check">
+
+                                <Form.Group className="mb-3" controlId="SignUpCheckboxSendUpdates">
+                                    <Form.Check type="checkbox" label="Please send me occasional link and updates" />
+                                </Form.Group>
+                            </div>
+                            <button type="submit" class="submit-btn">Sign Up</button>
                         </form>
                         <Row className="px-3 pb-4">
                             <Col xs={5} className="for-or-col-2-login"></Col>
-                            <Col className="text-center pt-3"><h1 className="for-or-text-in-col-2-login">Or</h1></Col>
+                            <Col xs={2} className="text-center pt-3"><h1 className="for-or-text-in-col-2-login">Or</h1></Col>
                             <Col xs={5} className="for-or-col-2-login"></Col>
                         </Row>
                         <svg class="container" width="248" height="24" viewBox="0 0 248 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,15 +98,16 @@ const Login = () => {
                         </svg>
                         <Row>
                             <Col className="text-center pt-4">
-                                <h1 className="text-before-singup">New to “Alpha Play”? <span className="singup-col-2-login">Sign Up</span></h1>
+                                <h1 className="text-before-singup">I already have an account, <span className="singup-col-2-login"> Log in</span></h1>
                             </Col>
                         </Row>
                     </div>
                 </Col>
+
+
             </Row>
         </Container>
-
     );
 };
 
-export default Login;
+export default signUp;
