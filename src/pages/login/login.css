@@ -1,0 +1,233 @@
+/* Login Page */
+
+/* COl 1 */
+.changing-bg-color-for-singup {
+    background-color: #1B0D3D;
+}
+
+.bg-for-col-1-login {
+    background-image: url("../../assets/images/loginPage-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 85px;
+    padding-right: 111px;
+    padding-top: 54px;
+    box-shadow: inset 0 0 0 50vw rgba(4, 4, 4, 0.4);
+}
+
+.for-random-svg-col-1-login {
+    margin-top: 154px;
+    margin-left: 200px;
+}
+
+.double-comas-col-1-login {
+    font-family: 'Gayathri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: white;
+    margin-top: 10px;
+}
+
+.for-text-col-1-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #EEF3F4;
+}
+
+.for-author-name-col-1-login {
+    margin-top: 43px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #EEF3F4;
+}
+
+.for-checkmark-col-1-login {
+    margin-top: 43px;
+}
+
+/* COL 2 */
+.bg-for-col-2-login {
+    background-color: #1B0D3D;
+    padding: 0;
+}
+
+.for-back-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-top: 2px;
+}
+
+.for-Step-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+.for-info-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.for-login-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.for-form-container-col-2-login {
+    padding-left: 111px;
+    padding-right: 120px;
+    padding-top: 60px;
+}
+
+.form-text-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692A6;
+    padding-right: 20px;
+}
+
+/* Input Fields */
+.input-for-log-in-and-singup-page {
+    background-color: #2F1B61 !important;
+    border: none !important;
+    background-repeat: no-repeat;
+    height: 64px;
+    background-color: #2F1B61;
+    border-radius: 6px !important;
+    padding-left: 50px !important;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF !important;
+}
+
+#LoginInputEmail {
+    background-image: url("data:image/svg+xml,%3Csvg width='23' height='20' viewBox='0 0 23 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.5989 0C18.0889 0 19.5222 0.588889 20.5767 1.64556C21.6322 2.7 22.2222 4.12222 22.2222 5.61111V14.3889C22.2222 17.4889 19.7 20 16.5989 20H5.62222C2.52111 20 0 17.4889 0 14.3889V5.61111C0 2.51111 2.51 0 5.62222 0H16.5989ZM17.8556 5.77778C17.6222 5.76556 17.4 5.84444 17.2322 6L12.2222 10C11.5778 10.5344 10.6544 10.5344 10 10L5 6C4.65444 5.74444 4.17667 5.77778 3.88889 6.07778C3.58889 6.37778 3.55556 6.85556 3.81 7.18889L3.95556 7.33333L9.01111 11.2778C9.63333 11.7667 10.3878 12.0333 11.1778 12.0333C11.9656 12.0333 12.7333 11.7667 13.3544 11.2778L18.3667 7.26667L18.4556 7.17778C18.7211 6.85556 18.7211 6.38889 18.4433 6.06667C18.2889 5.90111 18.0767 5.8 17.8556 5.77778Z' fill='white'/%3E%3C/svg%3E%0A");
+    background-position: 20px;
+}
+
+input[type=checkbox] {
+    border-radius: 6px !important;
+    padding: 12px !important;
+    margin-top: 0px;
+}
+
+#LoginInputPassword {
+    background-image: url("data:image/svg+xml,%3Csvg width='21' height='24' viewBox='0 0 21 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.1817 0C13.8642 0 16.8273 2.89774 16.8273 6.47521V8.31521C18.8941 8.96035 20.4 10.8314 20.4 13.0661V18.9904C20.4 21.7569 18.1064 24 15.2787 24H5.12256C2.29363 24 0 21.7569 0 18.9904V13.0661C0 10.8314 1.50714 8.96035 3.57274 8.31521V6.47521C3.58494 2.89774 6.548 0 10.1817 0ZM10.1939 13.6611C9.60861 13.6611 9.13305 14.1262 9.13305 14.6986V17.3459C9.13305 17.9302 9.60861 18.3953 10.1939 18.3953C10.7914 18.3953 11.2669 17.9302 11.2669 17.3459V14.6986C11.2669 14.1262 10.7914 13.6611 10.1939 13.6611ZM10.2061 2.08685C7.73078 2.08685 5.71883 4.04253 5.70663 6.45136V8.05645H14.6934V6.47521C14.6934 4.05446 12.6814 2.08685 10.2061 2.08685Z' fill='%23FDFDFD'/%3E%3C/svg%3E%0A");
+    background-position: 20px;
+}
+
+#exampleInputPassword2 {
+    background-image: url("data:image/svg+xml,%3Csvg width='21' height='24' viewBox='0 0 21 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.1817 0C13.8642 0 16.8273 2.89774 16.8273 6.47521V8.31521C18.8941 8.96035 20.4 10.8314 20.4 13.0661V18.9904C20.4 21.7569 18.1064 24 15.2787 24H5.12256C2.29363 24 0 21.7569 0 18.9904V13.0661C0 10.8314 1.50714 8.96035 3.57274 8.31521V6.47521C3.58494 2.89774 6.548 0 10.1817 0ZM10.1939 13.6611C9.60861 13.6611 9.13305 14.1262 9.13305 14.6986V17.3459C9.13305 17.9302 9.60861 18.3953 10.1939 18.3953C10.7914 18.3953 11.2669 17.9302 11.2669 17.3459V14.6986C11.2669 14.1262 10.7914 13.6611 10.1939 13.6611ZM10.2061 2.08685C7.73078 2.08685 5.71883 4.04253 5.70663 6.45136V8.05645H14.6934V6.47521C14.6934 4.05446 12.6814 2.08685 10.2061 2.08685Z' fill='%23FDFDFD'/%3E%3C/svg%3E%0A");
+    background-position: 20px;
+}
+
+#exampleInputfirstname1 {
+    background-image: url("data:image/svg+xml,%3Csvg width='19' height='24' viewBox='0 0 19 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.47368 15.8087C14.6107 15.8087 18.9474 16.6539 18.9474 19.9184C18.9474 23.1829 14.5829 24 9.47368 24C4.33668 24 0 23.1535 0 19.8902C0 16.6257 4.36323 15.8087 9.47368 15.8087ZM9.47368 0C12.9531 0 15.7423 2.82522 15.7423 6.34969C15.7423 9.87417 12.9531 12.6994 9.47368 12.6994C5.99423 12.6994 3.2051 9.87417 3.2051 6.34969C3.2051 2.82522 5.99423 0 9.47368 0Z' fill='white'/%3E%3C/svg%3E%0A");
+    background-position: 20px;
+}
+
+::placeholder {
+    padding-left: 0px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF !important;
+}
+
+label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.for-forget-pass-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FC00FF;
+}
+
+.submit-btn {
+    background: linear-gradient(270deg, #FC00FF 0%, #00DBDE 100%);
+    border-radius: 6px;
+    width: 100%;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 19px 0px;
+
+}
+
+.for-or-col-2-login {
+    background: #354E57;
+    border: 1px solid #354E57;
+    margin-top: 20px;
+    height: 0px;
+}
+
+.for-or-text-in-col-2-login {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #354E57;
+}
+
+.text-before-singup {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.singup-col-2-login {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FC00FF;
+}
