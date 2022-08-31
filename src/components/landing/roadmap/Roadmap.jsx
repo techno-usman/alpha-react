@@ -19,11 +19,47 @@ const Roadmap = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <RoadmapQuarterBlock />
+                <Row style={{ marginTop: "7rem" }}>
+                    <Col lg={4} className="p-0">
+                        <RoadmapQuarterBlock />
+                    </Col>
+                    <Col lg={4} className="p-0">
+                        <hr className={Classes.roadmapConnectingLines} />
+                    </Col>
+                    <Col lg={4} className="p-0">
+                        <RoadmapQuarterBlock />
+                    </Col>
                 </Row>
-            </Container>
-        </div>
+                <Row style={{ marginTop: "200px" }}>
+                    <Col lg={4} className="p-0">
+                        <RoadmapQuarterBlock />
+                    </Col>
+                    <Col lg={4} className="p-0">
+                        <hr className={Classes.roadmapConnectingLines} />
+                    </Col>
+                    <Col lg={4} className="p-0 position-relative">
+                        <div class={`${Classes.rodmapConnectingVerticalLine} vr`}></div>
+                        <RoadmapQuarterBlock />
+                    </Col>
+                </Row>
+                <Row style={{ marginTop: "200px" }} className={Classes.roadmapZigZagConnector}>
+                    <Col lg={4} className="position-relative p-0">
+                        <div class={`${Classes.rodmapConnectingVerticalLine + ' ' + Classes.upperVerticalLine} vr`}></div>
+                    </Col>
+                    <Col lg={4} className="position-relative p-0">
+                        <hr className={Classes.roadmapConnectingLines} />
+                    </Col>
+                    <Col lg={4} className="position-relative p-0">
+                        <div class={`${Classes.rodmapConnectingVerticalLine + ' ' + Classes.lowerVerticalLine} vr`}></div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center">
+                    <Col lg={8}>
+                        <RoadmapQuarterBlock />
+                    </Col>
+                </Row>
+            </Container >
+        </div >
     );
 };
 

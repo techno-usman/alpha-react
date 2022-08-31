@@ -34,6 +34,9 @@ const RoadmapQuarterBlock = () => {
                 }
 
             </ListGroup>
+            <div className={Classes.quarterBoxHeading}>
+                Q4 2022
+            </div>
         </div>
     );
 };
