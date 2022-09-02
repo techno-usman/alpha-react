@@ -1,0 +1,44 @@
+/* Accounts general settings */
+
+.UserAccountSettingsContainer {
+    height: max-content;
+    padding-bottom: 200px;
+    background-color: #1B0D3D;
+}
+
+.UserAccountSettingsContainer .for-row-account {
+    padding-top: 97px;
+}
+
+.UserAccountSettingsContainer .for-heading-in-account {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.UserAccountSettingsContainer .nav-tabs .nav-item.show .nav-link,
+.UserAccountSettingsContainer .nav-tabs .nav-link.active {
+    color: #FC00FF !important;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #FC00FF;
+}
+
+.UserAccountSettingsContainer .nav-tabs {
+    border-bottom: 1px solid #434343;
+}
+
+.UserAccountSettingsContainer .nav-link {
+    color: #ACACAC;
+    margin: 0px 5px;
+}
+
+.UserAccountSettingsContainer .nav-link:hover {
+    border: none !important;
+    border-bottom: 1px solid #FC00FF !important;
+    color: #FC00FF;
+}
