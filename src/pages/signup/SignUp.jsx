@@ -1,5 +1,6 @@
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import LoginSignUpLeftCol from '../../components/common/loginSignUp/left-coulmn';
+import ProfilePic from '../../assets/images/login-signup-input-icons/profile-pic.png';
 import './SignUp.css';
 
 const signUp = () => {
@@ -28,15 +29,17 @@ const signUp = () => {
                             <h5 class="for-info-col-2-login">Personal Info.</h5>
                         </Col>
                     </Row>
-                    <div class="for-form-container-col-2-login">
-                        <Row>
-                            <Col className="text-center">
+                    <div class="for-form-container-col-2-login pt-0">
 
-                            </Col>
-                        </Row>
                         <Row className="pt-2">
                             <Col className="text-center">
-                                <a href="#" className="picture-text-col-2-singup">Add profile picture</a>
+                                <Form.Group controlId="profilePic" className="mb-3">
+                                    <Form.Label>
+                                        <img src={ProfilePic} className="mb-2" />
+                                        <div>Add Profile Picture</div>
+                                    </Form.Label>
+                                    <Form.Control type="file" style={{ display: "none" }} />
+                                </Form.Group>
                             </Col>
                         </Row>
 
@@ -68,14 +71,14 @@ const signUp = () => {
                                     <Form.Control id="SignUpInputReEnterPassword" className="input-for-log-in-and-singup-page" type="password" placeholder="************" />
                                 </Form.Group>
                             </div>
-                            <div class="mb-4 form-check">
-                                <Form.Group className="mb-3" controlId="SignUpCheckboxIAgreeTerms">
+                            <div class="mb-3 ps-1 form-check">
+                                <Form.Group className="p-0" controlId="SignUpCheckboxIAgreeTerms">
                                     <Form.Check type="checkbox" label="I have READ and agree to terms & conditions" />
                                 </Form.Group>
                             </div>
-                            <div class="mb-4 form-check">
+                            <div class="mb-3 ps-1 form-check">
 
-                                <Form.Group className="mb-3" controlId="SignUpCheckboxSendUpdates">
+                                <Form.Group className="p-0" controlId="SignUpCheckboxSendUpdates">
                                     <Form.Check type="checkbox" label="Please send me occasional link and updates" />
                                 </Form.Group>
                             </div>

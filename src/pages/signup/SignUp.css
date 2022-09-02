@@ -128,3 +128,12 @@ label {
     text-decoration-line: underline;
     color: #FEFEFE;
 }
+
+.form-check-input,
+.form-check-input:checked {
+    background-color: #2F1B61;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+
+}
