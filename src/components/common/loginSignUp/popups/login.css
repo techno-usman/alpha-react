@@ -79,7 +79,7 @@
 }
 
 #LoginInputEmail {
-    background-image: url(../../assets/images/login-signup-input-icons/email.png);
+    background-image: url(./assets/images/email.png);
     background-position: 20px;
 }
 
@@ -90,7 +90,7 @@ input[type=checkbox] {
 }
 
 #LoginInputPassword {
-    background-image: url(../../assets/images/login-signup-input-icons/password.png);
+    background-image: url(./assets/images/password.png);
     background-position: 20px;
 }
 

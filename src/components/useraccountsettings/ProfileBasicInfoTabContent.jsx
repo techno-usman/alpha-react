@@ -1,5 +1,5 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import ProfilePic from '../../assets/images/login-signup-input-icons/profile-pic.png';
+import ProfilePic from '../../assets/images/profile-pic.png';
 import Classes from '../scss/useraccountsettings/ProfileBasicInfoTabContent.module.scss'
 
 

@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
-import { Button, Container, Row, Col } from 'react-bootstrap'
+import { Button, Container, Row, Col, Modal } from 'react-bootstrap'
 import { Link, NavLink } from 'react-router-dom'
 import LogoImg from '../../assets/images/logo.png'
 import Classes from '../scss/Header.module.scss'
 import { ReactComponent as SearchIcon } from '../../assets/svg/search.svg'
+import SignUpPopUp from '../../components/common/loginSignUp/popups/signUp';
+import LoginPopUp from '../../components/common/loginSignUp/popups/Login';
 
 const navLinks = [
   {
@@ -41,6 +43,28 @@ const Header = () => {
   const toggleNavbar = () => {
     setShowShowNavItems(!showNavItems)
   }
+
+
+  const [showSignUpModal, setShowSignUpModal] = useState(false);
+  const handleSignUpModalClose = (data) => {
+    setShowSignUpModal(false);
+
+    if (data.popup === 'signup') {
+      setShowLoginModal(true);
+    }
+  };
+  const handleSignUpModalShow = () => setShowSignUpModal(true);
+
+
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  const handleLoginModalClose = (data) => {
+    setShowLoginModal(false);
+    if (data.popup === 'login') {
+      setShowSignUpModal(true);
+    }
+  };
+  const handleLoginModalShow = () => setShowLoginModal(true);
+
   return (
     <header className={`${Classes.header} position-fixed top-0 w-100 `}>
       <nav className={Classes.navbar}>
@@ -93,15 +117,21 @@ const Header = () => {
                     </div>*/}
 
                 <div className='d-flex align-items-center gap-2 gap-md-3 flex-wrap'>
-                  <Link to='/login' className='text-white text-decoration-none'>
+                  <a href="#" onClick={handleLoginModalShow} className='text-white text-decoration-none'>Login</a>
+                  <LoginPopUp show={showLoginModal} onClose={handleLoginModalClose} />
+
+                  {/*<Link to='/login' className='text-white text-decoration-none'>
                     Login
-                  </Link>
-                  <Link
+                  </Link>*/}
+                  {/*<Link
                     to='/signup'
                     className={`${Classes.signupBtn} text-white text-decoration-none d-flex justify-content-center align-items-center`}
-                  >
+                >
                     <span>Sign up</span>
                   </Link>
+                */}
+                  <a href="#" onClick={handleSignUpModalShow} className={`${Classes.signupBtn} text-white text-decoration-none d-flex justify-content-center align-items-center`}>Sign up</a>
+                  <SignUpPopUp show={showSignUpModal} onClose={handleSignUpModalClose} />
                 </div>
               </div>
             </div>

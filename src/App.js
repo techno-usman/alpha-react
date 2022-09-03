@@ -4,8 +4,6 @@ import Home from './pages/landing/Home'
 import News from './pages/news/News'
 import Blog from './pages/blog/Blog'
 import BlogDetails from './pages/blog/BlogDetails'
-import Login from './pages/login/Login'
-import SignUp from './pages/signup/SignUp'
 import NotFound from './pages/notFound/NotFound'
 import UserAccountSettings from './pages/useraccountsettings/UserAccountSettings';
 
@@ -13,8 +11,6 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/login' element={<Login />} />
-      <Route path='/signup' element={<SignUp />} />
       <Route path='/account-settings' element={<UserAccountSettings />} />
       <Route path='/home/news' element={<News />} />
       <Route path='/home/blog' element={<Blog />} />

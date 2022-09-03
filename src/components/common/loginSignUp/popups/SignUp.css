@@ -16,7 +16,7 @@
 }
 
 #SignUpInputEmail {
-    background-image: url(../../assets/images/login-signup-input-icons/email.png);
+    background-image: url(./assets/images/email.png);
     background-position: 20px;
 }
 
@@ -27,17 +27,17 @@ input[type=checkbox] {
 }
 
 #SignUpInputPassword {
-    background-image: url(../../assets/images/login-signup-input-icons/password.png);
+    background-image: url(./assets/images/password.png);
     background-position: 20px;
 }
 
 #SignUpInputReEnterPassword {
-    background-image: url(../../assets/images/login-signup-input-icons/password.png);
+    background-image: url(./assets/images/password.png);
     background-position: 20px;
 }
 
 #SignUpInputfirstname {
-    background-image: url(../../assets/images/login-signup-input-icons/user.png);
+    background-image: url(./assets/images/user.png);
     background-position: 20px;
 }
 
@@ -115,6 +115,7 @@ label {
     font-size: 16px;
     line-height: 22px;
     color: #FC00FF;
+    cursor: pointer;
 }
 
 /* Singup Page */
