@@ -16,7 +16,7 @@ const UserAccountSettings = () => {
                         <Tab eventKey="profile" title="Profile">
                             <ProfileBasicInfoTabContent />
                         </Tab>
-                        <Tab eventKey="personal-details" title="PersonalDetails">
+                        <Tab eventKey="personal-details" title="Personal Details">
                             <PersonalDetailsTabContent />
                         </Tab>
                         <Tab eventKey="change-password" title="Change Password">
