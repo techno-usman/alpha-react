@@ -20,6 +20,11 @@
     margin-bottom: 33px;
 }
 
+.UserAccountSettingsContainer .nav-tabs .nav-link {
+    border: none;
+    padding-top: 10px;
+}
+
 .UserAccountSettingsContainer .nav-tabs .nav-item.show .nav-link,
 .UserAccountSettingsContainer .nav-tabs .nav-link.active {
     color: #FC00FF !important;
